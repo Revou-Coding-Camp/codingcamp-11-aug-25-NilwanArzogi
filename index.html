@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="icon" href="Asset/Logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <h1>
+            <img src="Asset/Logo.png" alt="" height="45px"> Wanderlust Coffee
+        </h1>
+        <div class="menu-toggle" id="menu-toggle">
+            <i data-feather="menu"></i>
+        </div>
+
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ourprofil">Our Profil</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#message">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="hero-img">
+            <div class="hero-text">
+            <h1>Hi Coffee Lovers, Welcome to My Portfolio</h1>
+            <p id="coffee-quote">"Your journey begins with a cup of coffee."</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ourprofil" class="ourprofil">
+        <h2>About Us</h2>
+        <p>Details about our profile will be displayed here.</p>
+
+        <h3 style="margin-top: 20px; margin-bottom: 20px;">Vision & Mission</h3>
+        <h3 style="margin-top: 20px; margin-bottom: 10px;">Vision</h3>
+        <p>Menjadi Brand Coffe Shop inspiratif yang membawa semangat petualangan dalam setiap cangkir kopi.</p>
+        <p>Menjadi pelopor coffee shop dengan konsep “Travel Vibes” yang mendunia.</p>
+
+        <h3 style="margin-bottom: 20px; margin-top: 20px;">Mission</h3>
+        <ol>
+            <p>Menyajikan kopi lokal bberkualitas premium dengan setuhan khas Wanderlust.</p>
+            <p>Membawa pengalaman "Travel Vibes" ke setiap cabang.</p>
+            <p>Mendukung komunitas lokal dan petani kopi indonesia.</p>
+            <p>Menjadi tempat bertemu, berkerja, dan berbagai cerita perjalanan.</p>
+    </section>
+
+    <section id="portfolio">
+    <h2>Seasonal Menu</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="Asset/kopi 1.png" alt="Autumn Spice Latte">
+            <h3>Autumn Spice Latte</h3>
+            <p>Latte hangat dengan kayu manis dan nutmeg.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Asset/kopi 2.png" alt="Mountain Matcha">
+            <h3>Mountain Matcha</h3>
+            <p>Matcha hijau lembut berpadu dengan aroma mawar manis, memberi rasa segar dan elegan.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Asset/kopi 3.png" alt="Tropical Escape">
+            <h3>Tropical Escape</h3>
+            <p>Espresso hangat disiram di atas es krim vanilla lembut, dipadukan dengan sirup mangga segar yang manis dan tropis.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="message">
+    <h2 style="text-align: center;">Message Us</h2>
+    <div class="form-container">
+        <form id="contactForm">
+        <label>Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" required>
+
+        <label>Message</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Submit</button>
+        </form>
+
+        <!-- Kotak untuk hasil -->
+        <div class="result-box" id="resultBox">
+        <p><strong>Hasil akan muncul di sini.</strong></p>
+        </div>
+    </div>
+    </section>
+
+    <footer class="portfolio-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Wanderlust Coffee | All Rights Reserved</p>
+            <p>Website crafted with by <span class="creator">Nilwan Arzogi</span></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
